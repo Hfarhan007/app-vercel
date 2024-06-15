@@ -1,9 +1,9 @@
 import React from "react";
-
+import style from "./styles.module.css";
 export default function DashbordLayout({ children }) {
   return (
     <div>
-      <nav>
+      <nav className={style.mainnev}>
         <ul>
           <li>Dashbord</li>
           <li>Products</li>
